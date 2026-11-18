@@ -1,0 +1,35 @@
+name: fohan_food_delivery
+description: A Flutter food delivery app built from the Foody Pixso UI kit reference.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/fonts/
+  fonts:
+    - family: Urbanist
+      fonts:
+        - asset: assets/fonts/Urbanist-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Urbanist-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Urbanist-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Urbanist-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Urbanist-ExtraBold.ttf
+          weight: 800
